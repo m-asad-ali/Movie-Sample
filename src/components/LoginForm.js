@@ -32,16 +32,14 @@ function LoginForm(props) {
   const [allEntry, setAllEntry] = useState("");
 
   const checkCredentials = () => {
-    {
-      credential.map((data) => {
+    credential.map((data) => {
+      if (data.email == email && data.password === password) {
         props.stateChanger();
-        if (data.email == email && data.password === password) {
-          console.log("data matched");
-        } else {
-          console.log("Error while Log in");
-        }
-      });
-    }
+        console.log("data matched");
+      } else {
+        console.log("Error while Log in");
+      }
+    });
   };
 
   const submitForm = (e) => {
