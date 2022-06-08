@@ -18,7 +18,8 @@ function MenuBar(props) {
   return (
     <div style={Style.Container}>
       <div style={{ fontSize: "1.5rem" }}>
-        Select Genre: <DropDown />
+        Select Genre:
+        <DropDown parentCallBack={props.parentCallBack} />
       </div>
 
       <div>

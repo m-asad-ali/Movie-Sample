@@ -34,9 +34,9 @@ function LoginForm(props) {
   const checkCredentials = () => {
     {
       credential.map((data) => {
+        props.stateChanger();
         if (data.email == email && data.password === password) {
           console.log("data matched");
-          props.stateChanger();
         } else {
           console.log("Error while Log in");
         }

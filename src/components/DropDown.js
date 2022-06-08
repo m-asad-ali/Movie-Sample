@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Movies from "./Movies";
-function DropDown() {
+
+function DropDown(props) {
   const [state, setState] = useState({ genre: "default" });
   const [data, setData] = useState("");
 
@@ -8,17 +8,21 @@ function DropDown() {
     setState({
       genre: data,
     });
+    console.log("data in dropdown: " + data);
+    props.parentCallBack(data);
   };
 
   return (
     <div>
       <select value={data} onChange={(e) => setData(e.target.value)}>
+        <option selected value="all">
+          All
+        </option>
         <option value="action">Action</option>
         <option value="horror">Horror</option>
-        <option value="comedy">Comedy</option>
+        <option value="SciFi">SciFi</option>
         <option value="drama">Drama</option>
         <option value="anime">Anime</option>
-        <option value="romance">Romance</option>
         <option value="thriling">Thriling</option>
         <option value="mystery">Mystery</option>
       </select>
@@ -26,8 +30,6 @@ function DropDown() {
       <button onClick={changeState} type="button">
         Show Movies
       </button>
-      {/* <Movies genre={state.genre} /> */}
-      {/* <p>{state.genre}</p> */}
     </div>
   );
 }
