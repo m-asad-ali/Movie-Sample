@@ -8,14 +8,29 @@ import Dashboard from "./components/Dashboard";
 
 function App() {
   const [showPage, setShowPage] = useState(true);
-  return (
-    <>
-      {showPage ? <LoginForm /> : <Dashboard value={showPage} />}
 
-      {/* <LoginForm /> */}
-      {/* <Dashboard /> */}
-    </>
-  );
+  const handelState = () => {
+    setShowPage(!showPage);
+  };
+
+  if (showPage) {
+    return <LoginForm stateChanger={handelState} />;
+  } else {
+    return <Dashboard stateChanger={handelState} />;
+  }
+
+  // return (
+  //   <>
+  //     {showPage ? (
+  //       <LoginForm stateChanger={handelState} />
+  //     ) : (
+  //       <Dashboard stateChanger={handelState} />
+  //     )}
+
+  //     {/* <LoginForm /> */}
+  //     {/* <Dashboard /> */}
+  //   </>
+  // );
 }
 
 export default App;

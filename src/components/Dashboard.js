@@ -5,7 +5,7 @@ import Movies from "./Movies";
 function Dashboard(props) {
   return (
     <>
-      <MenuBar value={props.value} />
+      <MenuBar stateChanger={props.stateChanger} />
       <Movies />
     </>
   );

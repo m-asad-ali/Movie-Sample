@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { credential } from "../Data/Credentials";
-import Dashboard from "./Dashboard";
+// import Dashboard from "./Dashboard";
 
-function LoginForm() {
+function LoginForm(props) {
   const Style = {
     Container: {
       // width: "100vh",
@@ -36,8 +36,9 @@ function LoginForm() {
       credential.map((data) => {
         if (data.email == email && data.password === password) {
           console.log("data matched");
-
-          return <Dashboard />;
+          props.stateChanger();
+        } else {
+          console.log("Error while Log in");
         }
       });
     }
@@ -62,7 +63,7 @@ function LoginForm() {
             type="email"
             name="email"
             id="email"
-            autoComplete="off"
+            // autoComplete="off"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -75,7 +76,7 @@ function LoginForm() {
             type="password"
             name="password"
             id="password"
-            autoComplete="off"
+            // autoComplete="off"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />

@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 import DropDown from "./DropDown";
 
-function MenuBar() {
+function MenuBar(props) {
   const Style = {
     Container: {
       height: "10vh",
@@ -22,7 +22,7 @@ function MenuBar() {
       </div>
 
       <div>
-        <Button />
+        <Button stateChanger={props.stateChanger} />
       </div>
     </div>
   );

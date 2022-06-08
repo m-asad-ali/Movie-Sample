@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-function Button() {
+function Button(props) {
   return (
     <button
       style={{
@@ -9,7 +9,9 @@ function Button() {
         padding: "10px 20px",
         borderRadius: "25px",
         fontSize: "15px",
+        cursor: "pointer",
       }}
+      onClick={props.stateChanger}
     >
       Sign Out
     </button>
