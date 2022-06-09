@@ -4,7 +4,7 @@ const Data = [
     title: "Dragon Ball Super: Super Hero",
     language: "ja",
     release_date: "2022-09-29",
-    tags: ["action", "anime", "adventure"],
+    tags: ["all", "action", "anime", "adventure"],
     videos: [
       {
         url: "https://youtu.be/bFLt45xK3kU",
@@ -51,7 +51,7 @@ const Data = [
     title: "Dark Harvest",
     language: "en",
     release_date: "2022-09-22",
-    tags: ["action", "horror", "adventure"],
+    tags: ["all", "action", "horror", "adventure"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -92,7 +92,7 @@ const Data = [
     title: "Avatar",
     language: "en",
     release_date: "2022-09-22",
-    tags: ["adventure", "action", "fantasy", "mystery"],
+    tags: ["all", "adventure", "action", "fantasy", "mystery"],
     videos: [
       {
         url: "https://youtu.be/dyDQoXEBkGw",
@@ -133,7 +133,7 @@ const Data = [
     title: "A Hundred Flowers",
     language: "-",
     release_date: "2022-09-15",
-    tags: ["action", "adventure", "thriling", "drama"],
+    tags: ["all", "action", "adventure", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -158,7 +158,15 @@ const Data = [
     title: "The Point Men",
     language: "ko",
     release_date: "2022-09-01",
-    tags: ["action", "adventure", "shooting", "thriling", "drama", "SciFi"],
+    tags: [
+      "all",
+      "action",
+      "adventure",
+      "shooting",
+      "thriling",
+      "drama",
+      "SciFi",
+    ],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -191,7 +199,7 @@ const Data = [
     title: "Where the Crawdads Sing",
     language: "en",
     release_date: "2022-09-01",
-    tags: ["action", "adventure", "shooting", "thriling", "drama"],
+    tags: ["all", "action", "adventure", "shooting", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/CLpQKzAHUYc",
@@ -232,7 +240,7 @@ const Data = [
     title: "Decision to Leave",
     language: "ko",
     release_date: "2022-09-01",
-    tags: ["adventure"],
+    tags: ["all", "adventure"],
     videos: [
       {
         url: "https://youtu.be/vIenqPpZDLE",
@@ -273,7 +281,7 @@ const Data = [
     title: "Moloch",
     language: "-",
     release_date: "2022-08-25",
-    tags: ["action"],
+    tags: ["all", "action"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -306,7 +314,7 @@ const Data = [
     title: "The Reef: Stalked",
     language: "en",
     release_date: "2022-08-25",
-    tags: ["thriling", "drama"],
+    tags: ["all", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -347,7 +355,7 @@ const Data = [
     title: "Nope",
     language: "en",
     release_date: "2022-08-18",
-    tags: ["action", "shooting", "thriling", "drama"],
+    tags: ["all", "action", "shooting", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/UiX8KjyV-00",
@@ -388,7 +396,7 @@ const Data = [
     title: "บึงกาฬ",
     language: "th",
     release_date: "2022-08-18",
-    tags: ["action"],
+    tags: ["all", "action"],
     videos: [
       {
         url: "https://youtu.be/txLqro3Gi60",
@@ -429,7 +437,7 @@ const Data = [
     title: "Blazing Samurai",
     language: "en",
     release_date: "2022-08-11",
-    tags: ["adventure", "anime", "thriling", "drama"],
+    tags: ["all", "adventure", "anime", "thriling", "drama"],
     videos: [],
     images: [
       {
@@ -463,7 +471,7 @@ const Data = [
     title: "Bullet Train",
     language: "en",
     release_date: "2022-08-11",
-    tags: ["action", "adventure", "shooting"],
+    tags: ["all", "action", "adventure", "shooting"],
     videos: [
       {
         url: "https://youtu.be/8O-Xh-6fnqA",
@@ -504,7 +512,7 @@ const Data = [
     title: "The Way of the Househusband The Movie",
     language: "ja",
     release_date: "2022-08-11",
-    tags: ["SciFi", "adventure", "thriling", "drama"],
+    tags: ["all", "SciFi", "adventure", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -535,7 +543,7 @@ const Data = [
     title: "Paws of Fury: The Legend of Hank",
     language: "en",
     release_date: "2022-08-11",
-    tags: ["anime", "thriling", "drama"],
+    tags: ["all", "anime", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/KIt_OpVkHSk",
@@ -576,7 +584,7 @@ const Data = [
     title: "You Are Not My Mother",
     language: "en",
     release_date: "2022-08-11",
-    tags: ["action", "thriling", "drama"],
+    tags: ["all", "action", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/5-Ii8-40cng",
@@ -617,7 +625,7 @@ const Data = [
     title: "DC League of Super-Pets",
     language: "en",
     release_date: "2022-08-04",
-    tags: ["animation"],
+    tags: ["all", "animation"],
     videos: [
       {
         url: "https://youtu.be/ndzAzcUqkDI",
@@ -658,7 +666,7 @@ const Data = [
     title: "A Banquet",
     language: "en",
     release_date: "2022-08-04",
-    tags: ["shooting", "thriling", "drama"],
+    tags: ["all", "shooting", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/zVZfglJ6bS0",
@@ -699,7 +707,7 @@ const Data = [
     title: "บุพเพสันนิวาส 2",
     language: "th",
     release_date: "2022-07-28",
-    tags: ["action", "adventure"],
+    tags: ["all", "action", "adventure"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -732,7 +740,7 @@ const Data = [
     title: "ไลโอโคตรแย้ยักษ์",
     language: "th",
     release_date: "2022-07-28",
-    tags: ["action"],
+    tags: ["all", "action"],
     videos: [
       {
         url: "https://youtu.be/mGpQDYaOnrI",
@@ -757,7 +765,7 @@ const Data = [
     title: "The Flash",
     language: "en",
     release_date: "2023-06-22",
-    tags: ["action", "adventure", "anime"],
+    tags: ["all", "action", "adventure", "anime"],
     videos: [
       {
         url: "https://youtu.be/ZRC05iThBFM",
@@ -798,7 +806,7 @@ const Data = [
     title: "Spider-Man: Across the Spider-Verse (Part One)",
     language: "en",
     release_date: "2023-06-01",
-    tags: ["anime", "action", "adventure", "thriling", "drama"],
+    tags: ["all", "anime", "action", "adventure", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/uacpZ9cVJZo",
@@ -839,7 +847,7 @@ const Data = [
     title: "Aquaman and the Lost Kingdom",
     language: "en",
     release_date: "2023-03-16",
-    tags: ["action", "adventure", "SciFi", "shooting"],
+    tags: ["all", "action", "adventure", "SciFi", "shooting"],
     videos: [
       {
         url: "https://youtu.be/lkAzQZ0mxos",
@@ -880,7 +888,7 @@ const Data = [
     title: "Ant-Man and the Wasp: Quantumania",
     language: "en",
     release_date: "2023-02-16",
-    tags: ["adventure", "anime", "shooting"],
+    tags: ["all", "adventure", "anime", "shooting"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -921,7 +929,7 @@ const Data = [
     title: "I Wanna Dance with Somebody",
     language: "-",
     release_date: "2023-01-26",
-    tags: ["action", "adventure", "anime"],
+    tags: ["all", "action", "adventure", "anime"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -946,7 +954,7 @@ const Data = [
     title: "Super Mario",
     language: "en",
     release_date: "2022-12-29",
-    tags: ["action", "thriling", "drama"],
+    tags: ["all", "action", "thriling", "drama"],
     videos: [],
     images: [
       {
@@ -980,7 +988,7 @@ const Data = [
     title: "Puss in Boots 2: The Last Wish",
     language: "-",
     release_date: "2022-12-29",
-    tags: ["action", "shooting", "thriling", "drama"],
+    tags: ["all", "action", "shooting", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/EePAyqqnHg8",
@@ -1013,7 +1021,7 @@ const Data = [
     title: "Shazam! Fury of the Gods",
     language: "en",
     release_date: "2022-12-21",
-    tags: ["action", "adventure"],
+    tags: ["all", "action", "adventure"],
     videos: [
       {
         url: "https://youtu.be/S3L32B4T5Mo",
@@ -1054,7 +1062,7 @@ const Data = [
     title: "Avatar: The Way of Water",
     language: "en",
     release_date: "2022-12-15",
-    tags: ["action", "shooting", "thriling", "drama"],
+    tags: ["all", "action", "shooting", "thriling", "drama"],
     videos: [
       {
         url: "https://youtu.be/lRhR2pdD8lg",
@@ -1095,7 +1103,7 @@ const Data = [
     title: "Strange World",
     language: "en",
     release_date: "2022-11-24",
-    tags: ["anime", "shooting", "thriling", "drama", "SciFi"],
+    tags: ["all", "anime", "shooting", "thriling", "drama", "SciFi"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -1120,7 +1128,15 @@ const Data = [
     title: "The Devil's Light",
     language: "-",
     release_date: "2022-11-17",
-    tags: ["action", "adventure", "anime", "shooting", "thriling", "drama"],
+    tags: [
+      "all",
+      "action",
+      "adventure",
+      "anime",
+      "shooting",
+      "thriling",
+      "drama",
+    ],
     videos: [],
     images: [
       {
@@ -1138,7 +1154,7 @@ const Data = [
     title: "Black Panther: Wakanda Forever",
     language: "en",
     release_date: "2022-11-10",
-    tags: ["action", "shooting", "drama"],
+    tags: ["all", "action", "shooting", "drama"],
     videos: [
       {
         url: "https://youtu.be/ebish97e8rY",
@@ -1179,7 +1195,7 @@ const Data = [
     title: "Ricki and the Flash",
     language: "en",
     release_date: "2022-11-03",
-    tags: ["action", "thriller", "adventure"],
+    tags: ["all", "action", "thriller", "adventure"],
     videos: [
       {
         url: "https://youtu.be/OeU3-aB0Mog",
@@ -1220,7 +1236,7 @@ const Data = [
     title: "Halloween Ends",
     language: "en",
     release_date: "2022-10-27",
-    tags: ["thriller", "adventure", "SciFi"],
+    tags: ["all", "thriller", "adventure", "SciFi"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -1261,7 +1277,7 @@ const Data = [
     title: "G.I. Joe: Ever Vigilant",
     language: "en",
     release_date: "2022-10-21",
-    tags: ["action", "adventure", "horror", "SciFi"],
+    tags: ["all", "action", "adventure", "horror", "SciFi"],
     videos: [],
     images: [
       {
@@ -1279,7 +1295,7 @@ const Data = [
     title: "Black Adam",
     language: "-",
     release_date: "2022-10-20",
-    tags: ["action", "thriller"],
+    tags: ["all", "action", "thriller"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -1320,7 +1336,7 @@ const Data = [
     title: "White Bird: A Wonder Story",
     language: "en",
     release_date: "2022-10-13",
-    tags: ["action", "adventure"],
+    tags: ["all", "action", "adventure"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -1345,7 +1361,7 @@ const Data = [
     title: "Don't Worry Darling",
     language: "en",
     release_date: "2022-10-13",
-    tags: ["SciFi", "horror"],
+    tags: ["all", "SciFi", "horror"],
     videos: [
       {
         url: "https://youtu.be/FgmnKsED-jU",
@@ -1386,7 +1402,7 @@ const Data = [
     title: "Mission: Impossible 7",
     language: "-",
     release_date: "2022-09-29",
-    tags: ["action", "thriller", "horror", "shooting"],
+    tags: ["all", "action", "thriller", "horror", "shooting"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
@@ -1419,7 +1435,7 @@ const Data = [
     title: "Jeepers Creepers : Reborn",
     language: "-",
     release_date: "2022-09-29",
-    tags: ["anime", "thriller", "horror"],
+    tags: ["all", "anime", "thriller", "horror"],
     videos: [
       {
         url: "https://youtu.be/7FkfqTNm01w",
