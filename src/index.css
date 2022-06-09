@@ -16,6 +16,9 @@ code {
   grid-template-columns: auto auto auto auto;
   justify-content: center;
   align-items: center;
+  /* background-color: #F7F7F7; */
+  background-color: antiquewhite;
+  min-height: 90vh;
 }
 * {
   box-sizing: border-box;
